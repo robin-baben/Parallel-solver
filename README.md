@@ -1,2 +1,4 @@
 # OpenMP-solver
-OpenMP parallel solver for systems of algebraic linear equations
+OpenMP parallel solver by CG method for systems of algebraic linear equations
+    
+    
