@@ -587,8 +587,8 @@ int main(int argc, char **argv){
         printf0("\t-- Find diag A\t%f s\t\n", D.times[0]);
         printf0("\t--- SGM method\t%f s\t\n", D.times[1]);
         printf0("\t-- Compute res\t%f s\t\n", D.times[2]);
-        return 0;
         
+        MPI_Finalize();
     }
 }
 
