@@ -1,0 +1,1 @@
+g++ -o ocl.exe ocl.cpp matrix.o -fopenmp -Wall -I "C:/OCLSDK/include/" -L "C:/OCLSDK/lib/x86/" -lOpenCL
