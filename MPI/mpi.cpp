@@ -398,10 +398,10 @@ data solver(
         } else {
             double beta_k = rho_new / rho_old;
             
-            axpy(beta_k, p_k, z_k, begin_halo, p_k);
+            axpy(beta_k, p_k, z_k, N, p_k);
         }
 
-        Update(p_k, CS);
+        // Update(p_k, CS);
 
         SpMV(A, p_k, q_k);
         
